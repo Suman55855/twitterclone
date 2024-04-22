@@ -10,7 +10,7 @@ import { MdLogout } from "react-icons/md";
 
 const LeftSidebar = () => {
   return (
-    <div>
+    <div className='w-[20%]'>
         <div>
             <div>
                 <img className='ml-4' width={"30px"} src='https://freepnglogo.com/images/all_img/1691832278twitter-x-logo-png.png' alt='twitter-logo'/>
