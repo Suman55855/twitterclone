@@ -6,7 +6,7 @@ import { FaRegBookmark } from "react-icons/fa";
 
 const Tweet = () => {
   return (
-    <div>
+    <div className="border-b border-gray-200">
       <div>
         <div className="flex p-4">
           <Avatar
@@ -24,16 +24,22 @@ const Tweet = () => {
             </div>
             <div className="flex justify-between my-3">
               <div className="flex items-center">
-                <FaRegComment size="20px" />
-                <p className="ml-1">0</p>
+                <div className="p-2 hover:bg-green-200 rounded-full cursor-pointer">
+                  <FaRegComment size="20px" />
+                </div>
+                <p>0</p>
               </div>
               <div className="flex items-center">
-                <FaRegHeart size="20px" />
-                <p className="ml-1">0</p>
+                <div className="p-2 hover:bg-pink-200 rounded-full cursor-pointer">
+                  <FaRegHeart size="20px" />
+                </div>
+                <p>0</p>
               </div>
               <div className="flex items-center">
-                <FaRegBookmark size="20px" />
-                <p className="ml-1">0</p>
+                <div className="p-2 hover:bg-yellow-200 rounded-full cursor-pointer">
+                  <FaRegBookmark size="20px" />
+                </div>
+                <p>0</p>
               </div>
             </div>
           </div>

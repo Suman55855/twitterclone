@@ -24,14 +24,14 @@ const CreatePost = () => {
               />
             </div>
             <input
-              className="w-full outline-none border-none text-lg ml-2"
+              className="w-full outline-none border-none text-xl ml-2"
               type="text"
               placeholder="What is happening?!"
             />
           </div>
           <div className="flex items-center justify-between p-4 border-b border-gray-300">
             <div>
-              <CiImageOn />
+              <CiImageOn size='24px' />
             </div>
             <button className="bg-[#1D9BF0] px-4 py-1 text-lg text-white text-right border-none rounded-full">
               Post
